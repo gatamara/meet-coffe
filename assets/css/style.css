@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+.list-nav{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    background-color: black ;   
+    padding: 10px;
+    align-items: center;
+}
+
+.list-nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+.svg-white{
+    filter: invert(100%) ;    
+}
+
+.hero-section {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+.section-two{   
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.section-three{
+    display: flex;
+    padding: 50px;
+    background-color: rgb(206, 104, 40);
+    color: white;
+    justify-content: center;
+}
+
+.sub-section-row{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-container{
+    padding: 20px;
+    width: 50%;
+    text-align: right;
+}
+
+.sub-section-col{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.section-four{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.sub-section-four{
+    display: flex;
+    gap: 40px;
+}
+footer{
+    color: white;
+    text-align: center;
+}
