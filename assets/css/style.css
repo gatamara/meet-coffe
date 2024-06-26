@@ -1,3 +1,4 @@
+
 body{
     background-color: black;
     font-family: "Roboto", sans-serif;
@@ -21,22 +22,25 @@ body{
     filter: invert(100%) ;    
 }
 
-.hero-section {
-    position: relative;
-    text-align: center;
+.hero {
+    background-image: url(../img/bg-hero.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 0px 3px 6px black;
+    text-align: right;
     color: white;
+    height: 400px;
+    padding: 20px;
+    
 }
 
-.overlay{
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, .2);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.hero h1{
+    font-size: 60px;
+}
+.hero h3{
+    font-size: 40px;
+ font-weight: lighter;
 }
 
 h1{
@@ -82,11 +86,13 @@ h2{
     width: 50%;
 }
 .section-four{
+    width: 100%;
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 
 
 }
@@ -97,4 +103,37 @@ h2{
 footer{
     color: white;
     text-align: center;
+}
+
+.form{
+    color: palevioletred;
+    margin: 0 auto;
+    width: 500px;
+    padding: 32px;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: #212121;
+}
+.form h1{
+    text-align: center;
+}
+.form div{
+   padding-top: 20px;
+}
+
+.button-form{
+   display: flex;
+   justify-content: center;
+   
+   
+}
+label, select {  
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+}
+
+textarea {
+  vertical-align: top;
+  height: 6em;
 }
